@@ -1,6 +1,5 @@
-import React from "react";
-
-export default function ProductsPage() {
+export default function ProductsPage({ searchParams }) {
+  console.log(searchParams.search);
   return (
     <div>
       <h1>Products Page</h1>
